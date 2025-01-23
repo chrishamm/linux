@@ -1136,7 +1136,7 @@ dtb-$(CONFIG_MACH_SUNIV) += \
 dtb-$(CONFIG_ARCH_SUN8IW15P1) += \
 	board.dtb
 dtb-$(CONFIG_ARCH_SUN8IW20) += \
-	board.dtb
+	sun8i-duet3d-duetscreen-linux.dtb
 dtb-$(CONFIG_ARCH_TANGO) += \
 	tango4-vantage-1172.dtb
 dtb-$(CONFIG_ARCH_TEGRA_2x_SOC) += \
