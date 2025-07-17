@@ -44,13 +44,13 @@
 /***************************PART1:ON/OFF define*******************************/
 #define GTP_CUSTOM_CFG        1
 #define GTP_CHANGE_X2Y        0
-#define GTP_DRIVER_SEND_CFG   0
+#define GTP_DRIVER_SEND_CFG   1
 #define GTP_HAVE_TOUCH_KEY    0
 #define GTP_ICS_SLOT_REPORT   0
 
 #define GTP_AUTO_UPDATE       0    /* auto update fw by .bin file as default*/
 #define GTP_HEADER_FW_UPDATE  1    /* auto update fw by gtp_default_FW in gt9xx_firmware.h, function together with GTP_AUTO_UPDATE */
-#define GTP_AUTO_UPDATE_CFG   0    /* auto update config by .cfg file, function together with GTP_AUTO_UPDATE*/
+#define GTP_AUTO_UPDATE_CFG   1    /* auto update config by .cfg file, function together with GTP_AUTO_UPDATE*/
 
 #define GTP_COMPATIBLE_MODE   0    /* compatible with GT9XXF*/
 
@@ -60,8 +60,8 @@
 #define GTP_WITH_PEN          0
 #define GTP_PEN_HAVE_BUTTON   0    /* active pen has buttons, function together with GTP_WITH_PEN*/
 
-#define GTP_DEBUG_ON          0
-#define GTP_INFO_ON           0
+#define GTP_DEBUG_ON          1
+#define GTP_INFO_ON           1
 #define GTP_DEBUG_ARRAY_ON    0
 #define GTP_DEBUG_FUNC_ON     0
 #define GTP_I2C_TEST          1
