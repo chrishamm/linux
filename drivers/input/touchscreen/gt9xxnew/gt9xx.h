@@ -44,7 +44,7 @@
 /***************************PART1:ON/OFF define*******************************/
 #define GTP_CUSTOM_CFG        0
 #define GTP_CHANGE_X2Y        0
-#define GTP_DRIVER_SEND_CFG   0
+#define GTP_DRIVER_SEND_CFG   1
 #define GTP_HAVE_TOUCH_KEY    0
 #define GTP_ICS_SLOT_REPORT   0
 
