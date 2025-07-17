@@ -42,9 +42,9 @@
 #include <linux/pinctrl/pinctrl-sunxi.h>
 
 /***************************PART1:ON/OFF define*******************************/
-#define GTP_CUSTOM_CFG        0
+#define GTP_CUSTOM_CFG        1
 #define GTP_CHANGE_X2Y        0
-#define GTP_DRIVER_SEND_CFG   1
+#define GTP_DRIVER_SEND_CFG   0
 #define GTP_HAVE_TOUCH_KEY    0
 #define GTP_ICS_SLOT_REPORT   0
 
@@ -355,9 +355,9 @@ extern void gtp_set_io_int(void);
 	0x00, 0x00, 0x00, 0x00, 0xDF, 0x01}
 
 #if GTP_CUSTOM_CFG
-#define GTP_MAX_HEIGHT   800
-#define GTP_MAX_WIDTH    480
-#define GTP_INT_TRIGGER  0            /* 0: Rising 1: Falling*/
+#define GTP_MAX_HEIGHT   1024
+#define GTP_MAX_WIDTH    600
+#define GTP_INT_TRIGGER  1            /* 0: Rising 1: Falling*/
 #else
 #define GTP_MAX_HEIGHT   4096
 #define GTP_MAX_WIDTH    4096
