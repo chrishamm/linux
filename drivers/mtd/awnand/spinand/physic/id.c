@@ -296,7 +296,7 @@ struct aw_spinand_phy_info winbond[] = {
 		.SectCntPerPage = 4,
 		.PageCntPerBlk  = 64,
 		.BlkCntPerDie	= 1024,
-		.OobSizePerPage = 64,
+		.OobSizePerPage = 128,
 		.OperationOpt	= SPINAND_QUAD_READ | SPINAND_QUAD_PROGRAM |
 			SPINAND_DUAL_READ,
 		.MaxEraseTimes  = 65000,
@@ -311,7 +311,7 @@ struct aw_spinand_phy_info winbond[] = {
 		.SectCntPerPage = 4,
 		.PageCntPerBlk  = 64,
 		.BlkCntPerDie	= 2048,
-		.OobSizePerPage = 64,
+		.OobSizePerPage = 128,
 		.OperationOpt	= SPINAND_QUAD_READ | SPINAND_QUAD_PROGRAM |
 			SPINAND_DUAL_READ,
 		.MaxEraseTimes  = 65000,
